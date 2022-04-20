@@ -39,25 +39,15 @@
     font-size: x-large ;
     cursor: pointer;
     padding: 0px 180px;
-    border: 1px solid #40005d;
-    background-color: #40005d;
+    border: 1px solid #f2b04f;
+    background-color: #f2b04f;
     color: white;
-    border-radius: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px
   }
   
   .new-expense button:hover,
   .new-expense button:active {
-    background-color: #510674;
-    border-color: #510674;
-  }
-  
-  .new-expense button.alternative {
-    color: #220131;
-    border-color: transparent;
-    background-color: transparent;
-  }
-  
-  .new-expense button.alternative:hover,
-  .new-expense button.alternative:active {
-    background-color: #ddb3f8;
+    background-color: #ebc489;
+    border-color: #ebc489;
   }

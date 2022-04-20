@@ -31,7 +31,6 @@ body {
   flex-direction: row;
 }
 .main_div {
-  background-color: green;
   display: flex;
   align-content: center;
   justify-content: flex-start;

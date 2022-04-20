@@ -1,5 +1,6 @@
 import "./Topcard.css";
 import "./Topcardcontent.css";
+import "./Rewardscard.css";
 
 const Rewardscard = () => {
   return (
@@ -11,6 +12,14 @@ const Rewardscard = () => {
         <div>
           <div>0 BEANS</div>
         </div>
+      </div>
+      <div className="buttons">
+        <button className="asd">
+          Re-Bake
+        </button>
+        <button className="asd">
+          Eat Beans
+        </button>
       </div>
     </div>
   );
