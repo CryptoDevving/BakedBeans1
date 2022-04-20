@@ -1,7 +1,8 @@
 import H2Tag from "./Components/H2Tag/H2Tag";
 import Image from "./Components/Top/Image/Image/Image";
 import Button from "./Components/UI/Button";
-import Card from "./Components/Card-component/Card";
+import Topcard from "./Components/Card-component/Topcard";
+import Rewardscard from "./Components/Card-component/Rewardscard";
 import "./index.css";
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
       <div className="main_div">
         <Image />
         <H2Tag />
-        <Card>
-        </Card>
+        <Topcard />
+        <Rewardscard/>
       </div>
       <Button />
     </div>

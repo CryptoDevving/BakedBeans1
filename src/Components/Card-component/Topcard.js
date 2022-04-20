@@ -1,12 +1,12 @@
 import React from "react";
 
-import "./Card.css";
-import Cardcontent from "./Cardcontent";
+import "./Topcard.css";
+import Topcardcontent from "./Topcardcontent";
 
 const Card = (props) => {
   return (
     <div className="card">
-      <Cardcontent></Cardcontent>
+      <Topcardcontent></Topcardcontent>
       <form>
       <div className="new-expense__controls">
         <div className="new-expense__control">

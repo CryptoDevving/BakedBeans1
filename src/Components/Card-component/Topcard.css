@@ -8,8 +8,8 @@
     align-items: center;
     background-color: #fbf1e1;
     flex-direction: column;
+    margin-bottom: 25px;
   }
-  
 
   .new-expense__controls {
     display: flex;
