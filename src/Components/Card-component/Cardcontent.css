@@ -1,0 +1,12 @@
+.cardcontent {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.cardtext{
+    padding-bottom: 10px ;
+}

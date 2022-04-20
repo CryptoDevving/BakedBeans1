@@ -1,0 +1,63 @@
+.card {
+    background: white;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbf1e1;
+    flex-direction: column;
+  }
+  
+
+  .new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 440px ;
+    max-width: 100%;
+    text-align: right;
+  }
+  
+  .new-expense button {
+    font-size: x-large ;
+    cursor: pointer;
+    padding: 0px 180px;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+  }
+  
+  .new-expense button:hover,
+  .new-expense button:active {
+    background-color: #510674;
+    border-color: #510674;
+  }
+  
+  .new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-expense button.alternative:hover,
+  .new-expense button.alternative:active {
+    background-color: #ddb3f8;
+  }
