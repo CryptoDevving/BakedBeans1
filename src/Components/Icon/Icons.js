@@ -1,24 +1,37 @@
-import "./Icons.css";
+
+import styled from 'styled-components';
 import Bscscan from "./bscscan.png";
 import Twitter from "./twitter.png";
 import Telegram from "./telegram.png";
 
 const Icon = () => {
+  const IconContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px 80px 0px 80px;
+    margin-top: 15px;
+  `
+
+  const IconComponent = styled.img`
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+  `
   return (
-    <div className="positions">
-      <a
-        href="https://www.bscscan.com/address/0xE2D26507981A4dAaaA8040bae1846C14E0Fb56bF"
-        target="__blank"
-      >
-        <img src={Bscscan} alt="bscscan" className="yeni" />
+    <IconContainer>
+      <a href="https://t.me/BakedBeansMiner" target="__blank">
+        <IconComponent src={Bscscan} alt="bscscan" />
       </a>
       <a href="https://t.me/BakedBeansMiner" target="__blank">
-        <img src={Telegram} alt="bscscan" className="yeni" />
+      <IconComponent src={Telegram} alt="bscscan" />
       </a>
       <a href="https://twitter.com/BakedBeansMiner" target="__blank">
-        <img src={Twitter} alt="bscscan" className="yeni" />
+      <IconComponent src={Twitter} alt="bscscan" />
       </a>
-    </div>
+
+    </IconContainer>
   );
 };
 

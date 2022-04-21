@@ -1,19 +1,33 @@
-import "./Topcardcontent.css";
+import styled from 'styled-components';
 
 const Cardcontent = (props) => {
+  const CardContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 24px;
+  `
+
+  const CardText = styled.div`
+    padding-bottom: 10px ;
+    margin-bottom: 24px;
+    font-size: x-large;
+  `
   return (
-    <div className="cardcontent">
+    <CardContainer>
       <div>
-        <div className="cardtext">Contract</div>
-        <div className="cardtext">Wallet</div>
-        <div className="cardtext">Your Beans</div>
+        <CardText>Contract</CardText>
+        <CardText>Wallet</CardText>
+        <CardText>Your Beans</CardText>
       </div>
       <div>
-        <div className="cardtext">0 BNB</div>
-        <div className="cardtext">0 BNB</div>
-        <div className="cardtext">0 BEANS</div>
+        <CardText>0 BNB</CardText>
+        <CardText>0 BNB</CardText>
+        <CardText>0 BEANS</CardText>
       </div>
-    </div>
+    </CardContainer>
   );
 };
 
