@@ -70,7 +70,7 @@ const ProviderBrandDesc = styled.span`
 
 const ConnectionModal = (props) => {
     const { showModal, toggleModal, connectAccount } = props;
-    const { connector, activate, active, account } = useWeb3React();
+
     const connectProvider = async (provider) => {
         const rpcUri = getRpc();
         if(provider === 'metamask') {
@@ -85,10 +85,6 @@ const ConnectionModal = (props) => {
         } else if(provider ==='walletconnect') {
             console.log('wallet connect')
 
-            const walletconnect = new WalletConnectConnector({ rpc: { 56: rpcUri } })
-                walletconnect.on(URI_AVAILABLE, uri => {
-                  console.log(uri)
-                })
 
             toggleModal()
         } else {
