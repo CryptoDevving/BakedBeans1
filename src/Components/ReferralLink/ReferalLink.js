@@ -55,7 +55,7 @@ const ReferalLink = () => {
   `
   return (
     <CardContent>
-      <CardTitle>Referal Link</CardTitle>
+      <CardTitle>Referral Link</CardTitle>
       <CardInputContainer>
         <CardInput
           type="text"
