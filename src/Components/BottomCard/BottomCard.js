@@ -39,6 +39,14 @@ const BottomCard = () => {
   margin-bottom: 5px;
   font-size: x-large;
   `
+
+  const CardDescText2 = styled.h2`
+  display: flex;
+  margin-bottom: 5px;
+  font-size: x-large;
+  justify-content: flex-end;
+  `
+
   return (
     <CardContent>
       <CardTitle>Nutrition Facts</CardTitle>
@@ -49,9 +57,9 @@ const BottomCard = () => {
           <CardDescText>Dev Fee</CardDescText>
         </div>
         <div>
-          <CardDescText>8%</CardDescText>
-          <CardDescText>2,920%</CardDescText>
-          <CardDescText>3%</CardDescText>
+          <CardDescText2>8%</CardDescText2>
+          <CardDescText2>2,920%</CardDescText2>
+          <CardDescText2>3%</CardDescText2>
         </div>
       </CardDescription>
     </CardContent>
