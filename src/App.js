@@ -1,10 +1,10 @@
 import H2Tag from "./Components/H2Tag/H2Tag";
 import Image from "./Components/Top/Image/Image/Image";
 import Icons from "./Components/Icon/Icons";
-import Button from "./Components/UI/Button";
-import Topcard from "./Components/Card-component/Topcard";
-import Rewardscard from "./Components/Card-component/Rewardscard";
+import Topcard from "./Components/TopCardComponent/Topcard";
 import "./index.css";
+import BottomCard from "./Components/BottomCard/BottomCard";
+import ReferalLink from "./Components/ReferralLink/ReferalLink";
 
 function App() {
   return (
@@ -13,7 +13,8 @@ function App() {
         <Image />
         <H2Tag />
         <Topcard />
-        <Rewardscard/>
+        <BottomCard/>
+        <ReferalLink/>
         <Icons/>
       </div>
     </div>

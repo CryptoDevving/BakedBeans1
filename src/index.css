@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0px;
-  font-family: Montserrat;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.6;
@@ -35,5 +35,5 @@ body {
   align-content: center;
   justify-content: flex-start;
   flex-direction: column;
-  width: 450px;
+  width: 400px;
 }
